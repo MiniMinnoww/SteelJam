@@ -19,8 +19,11 @@ namespace Interactables
             spriteRenderer.sprite = item.itemSprite;
         }
 
-        public void OnDrop()
+        public void OnDrop(ItemData item)
         {
+            this.item = item;
+            spriteRenderer.sprite = item.itemSprite;
+            
             // called when a player drops us after we spawn
             rb.linearVelocity = Player.Player.Rigidbody.linearVelocity;
         }

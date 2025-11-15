@@ -1160,6 +1160,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5466247147323574201, guid: 5fbc321630d4a2e438332569a0d33a21, type: 3}
+      propertyPath: m_Size.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5466247147323574201, guid: 5fbc321630d4a2e438332569a0d33a21, type: 3}
+      propertyPath: m_Size.y
+      value: 0.3125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5466247147323574201, guid: 5fbc321630d4a2e438332569a0d33a21, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -9064110232182805487, guid: 4b1f5e7ce741ed94fb0584d3db4ab775, type: 3}
+    - target: {fileID: 5466247147323574201, guid: 5fbc321630d4a2e438332569a0d33a21, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5466247147323574201, guid: 5fbc321630d4a2e438332569a0d33a21, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 8461027995508515245, guid: 5fbc321630d4a2e438332569a0d33a21, type: 3}
       propertyPath: m_Icon
       value: 
@@ -2786,6 +2806,18 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 6551078346434095724, guid: edb965348b5574d4bbca060a2e370d46, type: 3}
+    - target: {fileID: 4152482348013744237, guid: c592ace97a1fb1646aa7048acfe0933a, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4152482348013744237, guid: c592ace97a1fb1646aa7048acfe0933a, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4152482348013744237, guid: c592ace97a1fb1646aa7048acfe0933a, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4947582177612612896, guid: c592ace97a1fb1646aa7048acfe0933a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9
