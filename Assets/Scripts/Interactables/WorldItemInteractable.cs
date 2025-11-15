@@ -35,15 +35,5 @@ namespace Interactables
             interactor.GiveItem(item);
             Destroy(gameObject);
         }
-
-        public override void ShowInteractEffect()
-        {
-            outline.enabled = true;
-        }
-
-        public override void HideInteractEffect()
-        {
-            outline.enabled = false;
-        }
     }
 }

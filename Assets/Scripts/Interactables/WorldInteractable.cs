@@ -5,19 +5,17 @@ namespace Interactables
 {
     public abstract class WorldInteractable : MonoBehaviour
     {
-        [SerializeField] private SpriteRenderer outline;
+        [SerializeField] protected SpriteRenderer outline;
         public abstract void OnPlayerInteract(PlayerInteractor interactor);
 
         public virtual void ShowInteractEffect()
         {
-            // Not really sure what to do here?
-            // Need a popup
-            if (TryGetComponent(out SpriteRenderer sr)) sr.color = Color.red;
+            outline.enabled = true;
         }
 
         public virtual void HideInteractEffect()
         {
-            if (TryGetComponent(out SpriteRenderer sr)) sr.color = Color.white;
+            outline.enabled = false;
         }
     }
 }
