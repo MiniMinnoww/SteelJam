@@ -5,6 +5,7 @@ namespace Interactables
 {
     public abstract class WorldInteractable : MonoBehaviour
     {
+        [SerializeField] private SpriteRenderer outline;
         public abstract void OnPlayerInteract(PlayerInteractor interactor);
 
         public virtual void ShowInteractEffect()
