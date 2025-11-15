@@ -16,6 +16,8 @@ namespace Interactables
         public static void Switch()
         {
             IsOn = !IsOn;
+
+            Instance.spriteRenderer.sprite = IsOn ? Instance.onSprite : Instance.offSprite;
         }
     }
 }
