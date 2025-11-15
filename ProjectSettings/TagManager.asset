@@ -13,9 +13,9 @@ TagManager:
   - UI
   - Train
   - Carriage
-  - 
-  - 
-  - 
+  - Ground
+  - Interactable
+  - InteractableWorldCollision
   - 
   - 
   - 
@@ -49,6 +49,9 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 1489479375
+    locked: 0
+  - name: Interactables & Items
+    uniqueID: 3208856079
     locked: 0
   - name: Above Player
     uniqueID: 3324782379
