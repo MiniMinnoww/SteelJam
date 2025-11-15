@@ -50,7 +50,7 @@ namespace Player
             itemDisplaySpriteRenderer.color = Color.clear;
             
             // Spawn in the item again
-            Instantiate(CurrentItem.worldItemPrefab, transform.position, Quaternion.identity).OnDrop();
+            Instantiate(CurrentItem.worldItemPrefab, transform.position, Quaternion.identity).OnDrop(CurrentItem);
             CurrentItem = null;
         }
 

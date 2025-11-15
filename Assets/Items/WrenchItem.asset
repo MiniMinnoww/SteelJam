@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfa6c4cce71445cf8ffaaeaf1cb02881, type: 3}
+  m_Name: WrenchItem
+  m_EditorClassIdentifier: 
+  worldItemPrefab: {fileID: 3727614018696383520, guid: 5fbc321630d4a2e438332569a0d33a21, type: 3}
+  itemSprite: {fileID: -9064110232182805487, guid: 4b1f5e7ce741ed94fb0584d3db4ab775, type: 3}
