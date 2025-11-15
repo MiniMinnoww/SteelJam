@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: WrenchItem
   m_EditorClassIdentifier: 
   worldItemPrefab: {fileID: 3727614018696383520, guid: 5fbc321630d4a2e438332569a0d33a21, type: 3}
-  itemSprite: {fileID: -9064110232182805487, guid: 4b1f5e7ce741ed94fb0584d3db4ab775, type: 3}
+  itemSprite: {fileID: 348927652692132862, guid: b83b8dfcb8421f844b264becfe121362, type: 3}
