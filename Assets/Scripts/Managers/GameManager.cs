@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Managers;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
@@ -9,7 +10,6 @@ public class GameManager : MonoBehaviour
 
     public void RestartLevel()
     {
-        // TODO: Replace with a custom scene manager with a fade transition
-        SceneManager.LoadScene("MainLevel");
+        SceneChangeManager.SwitchScene("MainLevel");
     }
 }
