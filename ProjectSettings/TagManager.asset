@@ -2,17 +2,17 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
+  serializedVersion: 3
   tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
-  - 
-  - 
+  - Train
+  - Carriage
   - 
   - 
   - 
@@ -38,6 +38,26 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 1145344047
+    locked: 0
+  - name: Midground
+    uniqueID: 3627883303
+    locked: 0
+  - name: Train
+    uniqueID: 3263254241
+    locked: 0
+  - name: Player
+    uniqueID: 1489479375
+    locked: 0
+  - name: Above Player
+    uniqueID: 3324782379
+    locked: 0
+  - name: VFX
+    uniqueID: 4274626425
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
+  m_RenderingLayers:
+  - Default
