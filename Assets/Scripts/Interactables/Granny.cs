@@ -45,6 +45,8 @@ namespace Interactables
         {
             if (isShowing) return; // Prevent spam
 
+            SoundManager.PlaySoundEffect(SoundEffectType.GrannyInteract);
+
             Transform textToShow = Heating.IsOn ? grannyText2 : grannyText1;
             if (Heating.IsOn && HasBlanket)
             {
