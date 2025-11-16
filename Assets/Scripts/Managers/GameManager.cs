@@ -45,7 +45,7 @@ namespace Managers
 
         private void UpdateTimerText()
         {
-            timerText.text = $"{FormatTime(timeSpent)}<size=50%>s</size>";
+            timerText.text = $"{FormatTime(40-timeSpent)}<size=50%>s</size>";
         }
     
         // Format from float seconds to seconds:tenthOfASecond

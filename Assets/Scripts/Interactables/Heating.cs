@@ -3,6 +3,7 @@ using Items;
 using NUnit.Framework;
 using Player;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 namespace Interactables
 {
@@ -14,6 +15,8 @@ namespace Interactables
         
         [SerializeField] private Sprite brokenOutline;
         [SerializeField] private Sprite fixedOutline;
+
+        [SerializeField] private Light2D heaterLight;
         
         [SerializeField] private SpriteRenderer spriteRenderer;
 		public static bool IsOn {get; private set;}
@@ -28,6 +31,7 @@ namespace Interactables
             if (interactor.CurrentItem == requiredItem)
             {
                 IsOn = !IsOn;
+                heaterLight.enabled = IsOn;
                 interactor.Consume();
                 SoundManager.PlaySoundEffect(SoundEffectType.FixHeat);   
             }
