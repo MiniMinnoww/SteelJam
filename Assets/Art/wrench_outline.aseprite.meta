@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 11e1e2688cbdad1469e4e1dc4c422564
+guid: f263277d775dd11438816b3ccd5f754d
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -36,7 +36,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 100
+    spritePixelsToUnits: 16
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -98,7 +98,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 638988522974031142
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -123,9 +123,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Frame_0
+  - name: wrench_outline
     originalName: 
-    pivot: {x: 0.6486486, y: 0}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -133,9 +133,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 74
-      height: 18
-    spriteID: cff9a0a04a80ef9438e560db6f14e2a6
+      width: 10
+      height: 10
+    spriteID: 684715d9c889e5346a0a0751171b5fd4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,114 +144,24 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Frame_1
-    originalName: 
-    pivot: {x: 0.65753424, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 30
-      width: 73
-      height: 18
-    spriteID: 3e58be9172a45e848b07d8d2cdffa037
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 30}
-  - name: Frame_2
-    originalName: 
-    pivot: {x: 0.65753424, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 56
-      width: 73
-      height: 18
-    spriteID: ca986d27ccee68948960a7b72e972e2a
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 56}
-  - name: Frame_3
-    originalName: 
-    pivot: {x: 0.6486486, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 30
-      width: 74
-      height: 18
-    spriteID: 67b5fc015e6fcb5408f297bbd71c88d7
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 30}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1784267611
-    name: engine_wheels
+    guid: -1417107494
+    name: wrench_outline
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: wrench_outline
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
-        width: 74
-        height: 18
-      spriteId: cff9a0a04a80ef9438e560db6f14e2a6
-    - name: Frame_1
-      frameIndex: 1
-      additiveSortOrder: 0
-      cellRect:
-        x: 0
-        y: 0
-        width: 73
-        height: 18
-      spriteId: 3e58be9172a45e848b07d8d2cdffa037
-    - name: Frame_2
-      frameIndex: 2
-      additiveSortOrder: 0
-      cellRect:
-        x: 0
-        y: 0
-        width: 73
-        height: 18
-      spriteId: ca986d27ccee68948960a7b72e972e2a
-    - name: Frame_3
-      frameIndex: 3
-      additiveSortOrder: 0
-      cellRect:
-        x: 0
-        y: 0
-        width: 74
-        height: 18
-      spriteId: 67b5fc015e6fcb5408f297bbd71c88d7
+        width: 10
+        height: 10
+      spriteId: 684715d9c889e5346a0a0751171b5fd4
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -267,8 +177,32 @@ ScriptedImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 96, y: 64}
-  previousTextureSize: {x: 128, y: 128}
+  canvasSize: {x: 10, y: 10}
+  previousTextureSize: {x: 32, y: 32}
