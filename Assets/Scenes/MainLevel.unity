@@ -9302,11 +9302,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 404342785917329630, guid: 5fbc321630d4a2e438332569a0d33a21, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -29.859
+      value: -29.836
       objectReference: {fileID: 0}
     - target: {fileID: 404342785917329630, guid: 5fbc321630d4a2e438332569a0d33a21, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.614
+      value: -0.687
       objectReference: {fileID: 0}
     - target: {fileID: 404342785917329630, guid: 5fbc321630d4a2e438332569a0d33a21, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9314,19 +9314,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 404342785917329630, guid: 5fbc321630d4a2e438332569a0d33a21, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9581028
       objectReference: {fileID: 0}
     - target: {fileID: 404342785917329630, guid: 5fbc321630d4a2e438332569a0d33a21, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 404342785917329630, guid: 5fbc321630d4a2e438332569a0d33a21, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 404342785917329630, guid: 5fbc321630d4a2e438332569a0d33a21, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.28642455
       objectReference: {fileID: 0}
     - target: {fileID: 404342785917329630, guid: 5fbc321630d4a2e438332569a0d33a21, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -9338,7 +9338,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 404342785917329630, guid: 5fbc321630d4a2e438332569a0d33a21, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -33.288
       objectReference: {fileID: 0}
     - target: {fileID: 1971635413200674519, guid: 5fbc321630d4a2e438332569a0d33a21, type: 3}
       propertyPath: m_Enabled
