@@ -54,6 +54,8 @@ namespace Interactables
                     colliderTargetOffsetAir, 
                     timeBetweenFrames * 5);
 
+                SoundManager.PlaySoundEffect(SoundEffectType.BillowUp);
+
                 for (int n = 0; n < 5; n++)
                 {
                     spriteRenderer.sprite = sprites[n];
@@ -76,6 +78,8 @@ namespace Interactables
                     x => boxCollider.offset = x, 
                     colliderTargetOffsetGround, 
                     timeBetweenFrames * 5);
+
+                SoundManager.PlaySoundEffect(SoundEffectType.BillowDown);
 
                 for (int n = 4; n >= 0; n--)
                 {
