@@ -1,4 +1,5 @@
 ﻿using System;
+using Managers;
 using UnityEngine;
 using Util;
 
@@ -14,7 +15,7 @@ public class DeathArea : MonoBehaviour
         if (Utils.IsMaskInLayer(trainCollisionLayer, other.gameObject.layer))
         {
             // Train passed through
-            GameManager.Instance.RestartLevel();
+            GameManager.RestartLevel();
         }
     }
 }
