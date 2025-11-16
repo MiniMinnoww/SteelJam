@@ -84488,6 +84488,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 925511090}
     m_Modifications:
+    - target: {fileID: 3020091093379040015, guid: 3e7e2879515a6ed40a88ab32e3f350c2, type: 3}
+      propertyPath: colliderTargetSizeGround.y
+      value: 0.3832345
+      objectReference: {fileID: 0}
+    - target: {fileID: 3020091093379040015, guid: 3e7e2879515a6ed40a88ab32e3f350c2, type: 3}
+      propertyPath: colliderTargetOffsetGround.y
+      value: -0.03985502
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742025765253252264, guid: 3e7e2879515a6ed40a88ab32e3f350c2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.38323453
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742025765253252264, guid: 3e7e2879515a6ed40a88ab32e3f350c2, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.03985502
+      objectReference: {fileID: 0}
     - target: {fileID: 6800931132248327058, guid: 3e7e2879515a6ed40a88ab32e3f350c2, type: 3}
       propertyPath: m_Name
       value: BILLOWS
@@ -84498,7 +84514,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8316367353456158206, guid: 3e7e2879515a6ed40a88ab32e3f350c2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.2499
+      value: -1.377
       objectReference: {fileID: 0}
     - target: {fileID: 8316367353456158206, guid: 3e7e2879515a6ed40a88ab32e3f350c2, type: 3}
       propertyPath: m_LocalPosition.z
