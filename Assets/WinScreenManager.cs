@@ -23,6 +23,8 @@ public class WinScreenManager : MonoBehaviour
         Color ogCol = youScoredText.color;
         Color ogCol2 = highscoreText.color;
 
+        float highscore = PlayerPrefs.GetFloat("highscore");
+
         ogCol.a = 0;
         ogCol2.a = 0;
         youScoredText.color = ogCol;
@@ -52,7 +54,12 @@ public class WinScreenManager : MonoBehaviour
 
         yield return new WaitForSeconds(0.5f);
 
-        highscoreText.text = "best time: " + GameManager.FormatTime(PlayerPrefs.GetFloat("highscore")) + "<size=50%>s</size>";
+        highscoreText.text = "best time: " + GameManager.FormatTime(highscore) + "<size=50%>s</size>";
+        
+        Debug.Log($"Actual Score is {actualScore}");
+        Debug.Log($"Actual Score formatted is {GameManager.FormatTime(actualScore)}");
+        Debug.Log($"Highscore is {highscore}");
+        Debug.Log($"Highscore formatted is {GameManager.FormatTime(highscore)}");
         Vector2 ogPos2 = highscoreText.rectTransform.anchoredPosition;
         highscoreText.rectTransform.anchoredPosition += Vector2.down;
         highscoreText.rectTransform.DOAnchorPosY(ogPos2.y, 0.5f);

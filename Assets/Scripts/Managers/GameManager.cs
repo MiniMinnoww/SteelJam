@@ -48,8 +48,8 @@ namespace Managers
             timerText.text = $"{FormatTime(40-timeSpent)}<size=50%>s</size>";
         }
     
-        // Format from float seconds to seconds:tenthOfASecond
-        public static string FormatTime(float t) => $"{(int)t:00}.{(int)((t % 1) * 100):00}";
+        // Format from float seconds to seconds.tenthOfASecond
+        public static string FormatTime(float t) => $"{(int)t:00}.{(int)(t % 1 * 100):00}";
 
     }
 }
