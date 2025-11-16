@@ -34,7 +34,7 @@ namespace Managers
     
             youDiedText.DOFade(1, 0.5f);
             
-            yield return new WaitForSeconds(2.5f);
+            yield return new WaitForSeconds(4f);
             
             SceneChangeManager.SwitchScene("MainLevel");
         }

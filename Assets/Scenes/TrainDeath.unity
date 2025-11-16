@@ -208,7 +208,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "the train crashed... with you in it \n(you died)"
+  m_text: "the train crashed... with you in it \n(you died)\n<size=50%> Maybe staying
+    on the train isn\u2019t the best idea\u2026"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7da0db0c374690f46b4318e2e1aad1ff, type: 2}
   m_sharedMaterial: {fileID: 4455341994322316723, guid: 7da0db0c374690f46b4318e2e1aad1ff, type: 2}
