@@ -24,7 +24,7 @@ public class UIButton : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointe
         if (!isSelected) return;
         float angle = Mathf.Sin(Time.time * rotateSpeed) * rotateAmount;
         transform.rotation = originalRotation * Quaternion.Euler(0, 0, angle);
-        while (true) eventSystem.SetSelectedGameObject(gameObject); // hacky lol
+        eventSystem.SetSelectedGameObject(gameObject); // hacky lol
     }
 
     public void OnSelect(BaseEventData eventData)

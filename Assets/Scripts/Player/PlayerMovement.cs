@@ -22,7 +22,7 @@ namespace Player
             Player.Rigidbody.AddForceX(Player.Input.Horizontal * moveForce * (Grounded ? 1 : 0.75f));
             if (!Grounded)
                 Player.Rigidbody.linearVelocity =
-                    new Vector2(Player.Rigidbody.linearVelocity.x * 0.98f, Player.Rigidbody.linearVelocity.y);
+                    new Vector2(Player.Rigidbody.linearVelocity.x * ((0.98f * Time.fixedDeltaTime) / (1/50)), Player.Rigidbody.linearVelocity.y);
         }
 
         private void OnJump()
