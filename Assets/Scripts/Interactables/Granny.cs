@@ -45,7 +45,7 @@ namespace Interactables
         {
             if (isShowing) return; // Prevent spam
 
-            SoundManager.PlaySoundEffect(SoundEffectType.GrannyInteract);
+            SoundManager.PlaySoundEffect(SoundEffectType.GrannyInteract);   
 
             Transform textToShow = Heating.IsOn ? grannyText2 : grannyText1;
             if (Heating.IsOn && HasBlanket)
@@ -53,6 +53,7 @@ namespace Interactables
                 // Give player the blanket
                 Instantiate(worldItemPrefab, transform.position, Quaternion.identity).OnDrop(blanketItem);
                 HasBlanket = false;
+                SoundManager.PlaySoundEffect(SoundEffectType.GetBlanket);
             }
             StartCoroutine(ShowTextRoutine(textToShow));
 

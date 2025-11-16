@@ -26,8 +26,10 @@ namespace Interactables
         public override void OnPlayerInteract(PlayerInteractor interactor)
         {
             if (interactor.CurrentItem == requiredItem)
+            {
                 IsOn = !IsOn;
-
+                SoundManager.PlaySoundEffect(SoundEffectType.FixHeat);   
+            }
             spriteRenderer.sprite = IsOn ? fixedSprite : brokenSprite;
         }
 
