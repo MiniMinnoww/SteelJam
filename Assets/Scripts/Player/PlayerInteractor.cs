@@ -58,6 +58,14 @@ namespace Player
             CurrentItem = null;
         }
 
+        public void Consume()
+        {
+            if (!CurrentItem) return;
+
+            itemDisplaySpriteRenderer.color = Color.clear;
+            CurrentItem = null;
+        }
+
         private bool TryGetInteractable(out WorldInteractable interactable)
         {
             interactable = null;

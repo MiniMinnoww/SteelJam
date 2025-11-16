@@ -49,7 +49,7 @@ namespace Managers
         }
     
         // Format from float seconds to seconds:tenthOfASecond
-        private static string FormatTime(float t) => $"{(int)t:00}:{(int)((t % 1) * 100):00}";
+        public static string FormatTime(float t) => $"{(int)t:00}.{(int)((t % 1) * 100):00}";
 
     }
 }

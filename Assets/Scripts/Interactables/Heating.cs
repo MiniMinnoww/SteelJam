@@ -26,7 +26,11 @@ namespace Interactables
         public override void OnPlayerInteract(PlayerInteractor interactor)
         {
             if (interactor.CurrentItem == requiredItem)
+            {
                 IsOn = !IsOn;
+                interactor.Consume();
+            }
+                
 
             spriteRenderer.sprite = IsOn ? fixedSprite : brokenSprite;
         }
