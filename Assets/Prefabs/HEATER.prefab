@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1317452570313096574}
   - component: {fileID: 7712014158605728992}
   m_Layer: 9
-  m_Name: Light 2D
+  m_Name: heaterLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39,7 +39,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 698616343703795804}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
   m_Name: 
@@ -138,6 +138,7 @@ MonoBehaviour:
   fixedSprite: {fileID: 7761105246889324916, guid: 793b17d16018b2840927740cc082f7d8, type: 3}
   brokenOutline: {fileID: -4693364222853260952, guid: b9c9f02dd8074d846af5fb60f64277cb, type: 3}
   fixedOutline: {fileID: -6552887575638346061, guid: b9c9f02dd8074d846af5fb60f64277cb, type: 3}
+  heaterLight: {fileID: 7712014158605728992}
   spriteRenderer: {fileID: 497667286613341382}
 --- !u!212 &497667286613341382
 SpriteRenderer:
