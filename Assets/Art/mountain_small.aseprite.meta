@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: df14556b4dd36444e945797bb119483e
+guid: 5b8465456f43d3d4cbc52290e281a1cd
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -98,7 +98,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638988754313945997
+  platformSettingsDirtyTick: 638988758845541999
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -123,9 +123,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: fence
+  - name: mountain_small
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.61538464, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -133,9 +133,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 16
-      height: 14
-    spriteID: 88d24b3a1d7a5ed438bafca5d87a87a6
+      width: 104
+      height: 53
+    spriteID: 586a0051ca606f24abd795c5f137efaf
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -147,21 +147,21 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1537279529
-    name: fence
+    guid: 1038038663
+    name: mountain_small
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: fence
+    - name: mountain_small
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
-        width: 16
-        height: 14
-      spriteId: 88d24b3a1d7a5ed438bafca5d87a87a6
+        width: 104
+        height: 53
+      spriteId: 586a0051ca606f24abd795c5f137efaf
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -204,5 +204,5 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 16, y: 16}
-  previousTextureSize: {x: 32, y: 32}
+  canvasSize: {x: 128, y: 96}
+  previousTextureSize: {x: 128, y: 64}
