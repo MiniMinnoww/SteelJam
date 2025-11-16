@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfa6c4cce71445cf8ffaaeaf1cb02881, type: 3}
+  m_Script: {fileID: 11500000, guid: 6ff5ffc3da2449be9b50934c7d03794f, type: 3}
   m_Name: CoffeeItem
   m_EditorClassIdentifier: 
   worldItemPrefab: {fileID: 3727614018696383520, guid: 5fbc321630d4a2e438332569a0d33a21, type: 3}
