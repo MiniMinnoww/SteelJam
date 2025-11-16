@@ -37,6 +37,8 @@ namespace Interactables
 
             grannyText1.gameObject.SetActive(false);
             grannyText2.gameObject.SetActive(false);
+
+            HasBlanket = true;
         }
 
         public override void OnPlayerInteract(PlayerInteractor interactor)

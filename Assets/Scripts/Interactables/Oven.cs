@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.Rendering.Universal;
 
 namespace Interactables
@@ -14,6 +15,11 @@ namespace Interactables
         public static Oven Instance { get; private set; }
 
         private void Awake() => Instance = this;
+
+        private void Start()
+        {
+            IsOn = false;
+        }
 
         public static void Switch()
         {

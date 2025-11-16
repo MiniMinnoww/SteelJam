@@ -17,6 +17,12 @@ namespace Interactables
         
         [SerializeField] private SpriteRenderer spriteRenderer;
 		public static bool IsOn {get; private set;}
+
+        private void Start()
+        {
+            IsOn = false;
+        }
+
         public override void OnPlayerInteract(PlayerInteractor interactor)
         {
             if (interactor.CurrentItem == requiredItem)
