@@ -359,6 +359,9 @@ MonoBehaviour:
   - audioClip: {fileID: 8300000, guid: 330058f2d61d986468ce0ca754397a25, type: 3}
     soundType: 17
     masterLevel: 1
+  - audioClip: {fileID: 8300000, guid: 5b0dd73918483c24a9430bd42537fe9a, type: 3}
+    soundType: 18
+    masterLevel: 1
   soundEffectsSource: {fileID: 4485741637526910583}
   musicSource: {fileID: 8135448620472005875}
 --- !u!82 &4485741637526910583
