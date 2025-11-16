@@ -14,7 +14,7 @@ namespace Player
         [SerializeField] private float interactRadius;
         [SerializeField] private LayerMask interactLayers;
         [SerializeField] private SpriteRenderer itemDisplaySpriteRenderer;
-        private ItemData CurrentItem { get; set; }
+        public ItemData CurrentItem { get; private set; }
         public bool HasItem => CurrentItem != null;
 
         private WorldInteractable lastHighlighted;
@@ -47,6 +47,8 @@ namespace Player
 
         private void OnDrop()
         {
+            if (!CurrentItem) return;
+            
             itemDisplaySpriteRenderer.color = Color.clear;
             
             // Spawn in the item again
