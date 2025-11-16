@@ -1084,7 +1084,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2404759186828660768, guid: 11f57a2f58075c145b1eb4b1417efc4e, type: 3}
       propertyPath: m_GravityScale
-      value: 4
+      value: 4.2
       objectReference: {fileID: 0}
     - target: {fileID: 5301735920428590516, guid: 11f57a2f58075c145b1eb4b1417efc4e, type: 3}
       propertyPath: m_Name
@@ -1682,7 +1682,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2404759186828660768, guid: 11f57a2f58075c145b1eb4b1417efc4e, type: 3}
       propertyPath: m_GravityScale
-      value: 4
+      value: 3.7
       objectReference: {fileID: 0}
     - target: {fileID: 5301735920428590516, guid: 11f57a2f58075c145b1eb4b1417efc4e, type: 3}
       propertyPath: m_Name
@@ -2040,7 +2040,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2404759186828660768, guid: 11f57a2f58075c145b1eb4b1417efc4e, type: 3}
       propertyPath: m_GravityScale
-      value: 4
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 5301735920428590516, guid: 11f57a2f58075c145b1eb4b1417efc4e, type: 3}
       propertyPath: m_Name
@@ -2192,7 +2192,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2404759186828660768, guid: 11f57a2f58075c145b1eb4b1417efc4e, type: 3}
       propertyPath: m_GravityScale
-      value: 4
+      value: 4.5
       objectReference: {fileID: 0}
     - target: {fileID: 5301735920428590516, guid: 11f57a2f58075c145b1eb4b1417efc4e, type: 3}
       propertyPath: m_Name
