@@ -41,6 +41,7 @@ namespace Player
 
         private void OnInteract()
         {
+            // Will only get interactables that this item can be used on
             if (TryGetInteractable(out WorldInteractable interactable))
                 interactable.OnPlayerInteract(this);
             
@@ -70,8 +71,15 @@ namespace Player
         {
             interactable = null;
 
-            Collider2D detectedObject = Physics2D.OverlapCircle(Player.Transform.position, interactRadius, interactLayers);
-            return detectedObject && detectedObject.TryGetComponent(out interactable);
+            Collider2D[] detectedObjects = Physics2D.OverlapCircleAll(Player.Transform.position, interactRadius, interactLayers);
+            foreach (Collider2D detectedObject in detectedObjects)
+            {
+                if (!detectedObject || !detectedObject.TryGetComponent(out interactable)) continue;
+                if (interactable.CanBeInteractedBy(this))
+                    return true;
+            }
+
+            return false;
         }
 
         public void GiveItem(ItemData data)

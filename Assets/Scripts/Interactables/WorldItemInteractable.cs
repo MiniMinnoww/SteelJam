@@ -21,7 +21,7 @@ namespace Interactables
             outline.sprite = item.outline;
         }
 
-        public void OnDrop(ItemData item)
+        public void OnDrop(ItemData item, bool dropWithVelocity=true)
         {
             this.item = item;
             spriteRenderer.sprite = item.itemSprite;
@@ -29,7 +29,7 @@ namespace Interactables
             
             // called when a player drops us after we spawn
             SoundManager.PlaySoundEffect(SoundEffectType.ItemDrop);
-            rb.linearVelocity = Player.Player.Rigidbody.linearVelocity;
+            if (dropWithVelocity) rb.linearVelocity = Player.Player.Rigidbody.linearVelocity;
         }
 
         public override void OnPlayerInteract(PlayerInteractor interactor)

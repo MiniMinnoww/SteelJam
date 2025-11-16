@@ -7,6 +7,7 @@ namespace Interactables
     {
         [SerializeField] protected SpriteRenderer outline;
         public abstract void OnPlayerInteract(PlayerInteractor interactor);
+        public virtual bool CanBeInteractedBy(PlayerInteractor interactor) => !interactor.CurrentItem;
 
         public virtual void ShowInteractEffect()
         {

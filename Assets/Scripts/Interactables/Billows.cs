@@ -30,6 +30,7 @@ namespace Interactables
 
         private IEnumerator MoveRoutine()
         {
+            yield return null;
             while (true)
             {
                 if (!Oven.IsOn) 

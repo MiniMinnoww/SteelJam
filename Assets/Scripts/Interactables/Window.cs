@@ -8,6 +8,9 @@ namespace Interactables
     public class Window : WorldInteractable
     {
         [SerializeField] private ItemData requiredItem;
+
+        public override bool CanBeInteractedBy(PlayerInteractor interactor) => true;
+
         public override void OnPlayerInteract(PlayerInteractor interactor)
         {
             // Win or lose

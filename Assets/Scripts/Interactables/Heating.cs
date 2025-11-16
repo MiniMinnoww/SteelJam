@@ -20,6 +20,7 @@ namespace Interactables
         
         [SerializeField] private SpriteRenderer spriteRenderer;
 		public static bool IsOn {get; private set;}
+        public override bool CanBeInteractedBy(PlayerInteractor interactor) => interactor.CurrentItem == requiredItem;
 
         private void Start()
         {

@@ -51,7 +51,7 @@ namespace Interactables
             if (Heating.IsOn && HasBlanket)
             {
                 // Give player the blanket
-                Instantiate(worldItemPrefab, transform.position, Quaternion.identity).OnDrop(blanketItem);
+                Instantiate(worldItemPrefab, transform.position, Quaternion.identity).OnDrop(blanketItem, false);
                 HasBlanket = false;
                 SoundManager.PlaySoundEffect(SoundEffectType.GetBlanket);
             }
