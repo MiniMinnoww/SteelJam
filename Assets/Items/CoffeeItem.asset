@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   worldItemPrefab: {fileID: 3727614018696383520, guid: 5fbc321630d4a2e438332569a0d33a21, type: 3}
   itemSprite: {fileID: -9064110232182805487, guid: 4b1f5e7ce741ed94fb0584d3db4ab775, type: 3}
+  outline: {fileID: -409004507810601346, guid: a37971e1ded77fa42b28319067390ed7, type: 3}

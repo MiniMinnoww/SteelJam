@@ -49,8 +49,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outline: {fileID: 9137982097589000590}
   requiredItem: {fileID: 11400000, guid: 2b669c506c1834e4286a8a010d2a46a9, type: 2}
-  brokenSprite: {fileID: 3736241709085912690, guid: 793b17d16018b2840927740cc082f7d8, type: 3}
-  fixedSprite: {fileID: -3149496942705853443, guid: 793b17d16018b2840927740cc082f7d8, type: 3}
+  brokenSprite: {fileID: 5583789750432346103, guid: 793b17d16018b2840927740cc082f7d8, type: 3}
+  fixedSprite: {fileID: 7761105246889324916, guid: 793b17d16018b2840927740cc082f7d8, type: 3}
+  brokenOutline: {fileID: -4693364222853260952, guid: b9c9f02dd8074d846af5fb60f64277cb, type: 3}
+  fixedOutline: {fileID: -6552887575638346061, guid: b9c9f02dd8074d846af5fb60f64277cb, type: 3}
   spriteRenderer: {fileID: 497667286613341382}
 --- !u!212 &497667286613341382
 SpriteRenderer:
@@ -96,7 +98,7 @@ SpriteRenderer:
   m_SortingLayerID: -1031713055
   m_SortingLayer: -5
   m_SortingOrder: 10
-  m_Sprite: {fileID: 3736241709085912690, guid: 793b17d16018b2840927740cc082f7d8, type: 3}
+  m_Sprite: {fileID: 5583789750432346103, guid: 793b17d16018b2840927740cc082f7d8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -104,7 +106,7 @@ SpriteRenderer:
   m_Size: {x: 1.25, y: 0.625}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!61 &5427529669446848999
@@ -144,7 +146,7 @@ BoxCollider2D:
   m_Offset: {x: 0.375, y: 0.3125}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.2, y: 0}
+    pivot: {x: 0.2, y: 0.8}
     oldSize: {x: 1.25, y: 0.625}
     newSize: {x: 1.25, y: 0.625}
     adaptiveTilingThreshold: 0.5
@@ -162,12 +164,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 4631237290993750739}
     m_Modifications:
     - target: {fileID: 5175176084308401613, guid: 7d6c5f660763b7d4d82fc25ac0a9d05f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175176084308401613, guid: 7d6c5f660763b7d4d82fc25ac0a9d05f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175176084308401613, guid: 7d6c5f660763b7d4d82fc25ac0a9d05f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.608
+      value: 0.031
       objectReference: {fileID: 0}
     - target: {fileID: 5175176084308401613, guid: 7d6c5f660763b7d4d82fc25ac0a9d05f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.381
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5175176084308401613, guid: 7d6c5f660763b7d4d82fc25ac0a9d05f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -200,6 +210,26 @@ PrefabInstance:
     - target: {fileID: 5175176084308401613, guid: 7d6c5f660763b7d4d82fc25ac0a9d05f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7156539254284719015, guid: 7d6c5f660763b7d4d82fc25ac0a9d05f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4693364222853260952, guid: b9c9f02dd8074d846af5fb60f64277cb, type: 3}
+    - target: {fileID: 7156539254284719015, guid: 7d6c5f660763b7d4d82fc25ac0a9d05f, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7156539254284719015, guid: 7d6c5f660763b7d4d82fc25ac0a9d05f, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7156539254284719015, guid: 7d6c5f660763b7d4d82fc25ac0a9d05f, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7156539254284719015, guid: 7d6c5f660763b7d4d82fc25ac0a9d05f, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7156539254284719015, guid: 7d6c5f660763b7d4d82fc25ac0a9d05f, type: 3}
       propertyPath: m_Enabled

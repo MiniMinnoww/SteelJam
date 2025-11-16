@@ -15,7 +15,7 @@ public class SoundManager : MonoBehaviour
     
     private const float SFX_VOLUME = 0.5f;
 
-    private Dictionary<SoundEffectType, SoundEffect> soundEffects;
+    private Dictionary<SoundEffectType, SoundEffect> soundEffects = new();
 
     private void Awake() => Instance = this;
 

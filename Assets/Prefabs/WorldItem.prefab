@@ -145,7 +145,7 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 0.5, y: 0.5}
     newSize: {x: 0.5, y: 0.3125}
     adaptiveTilingThreshold: 0.5
@@ -306,8 +306,32 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7156539254284719015, guid: 7d6c5f660763b7d4d82fc25ac0a9d05f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -7362842583064131565, guid: f263277d775dd11438816b3ccd5f754d, type: 3}
+    - target: {fileID: 7156539254284719015, guid: 7d6c5f660763b7d4d82fc25ac0a9d05f, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7156539254284719015, guid: 7d6c5f660763b7d4d82fc25ac0a9d05f, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7156539254284719015, guid: 7d6c5f660763b7d4d82fc25ac0a9d05f, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7156539254284719015, guid: 7d6c5f660763b7d4d82fc25ac0a9d05f, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7156539254284719015, guid: 7d6c5f660763b7d4d82fc25ac0a9d05f, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7156539254284719015, guid: 7d6c5f660763b7d4d82fc25ac0a9d05f, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8949814667397678072, guid: 7d6c5f660763b7d4d82fc25ac0a9d05f, type: 3}
       propertyPath: m_Name

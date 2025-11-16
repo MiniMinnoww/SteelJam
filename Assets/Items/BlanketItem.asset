@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cfa6c4cce71445cf8ffaaeaf1cb02881, type: 3}
-  m_Name: WrenchItem
+  m_Name: BlanketItem
   m_EditorClassIdentifier: 
   worldItemPrefab: {fileID: 3727614018696383520, guid: 5fbc321630d4a2e438332569a0d33a21, type: 3}
-  itemSprite: {fileID: 348927652692132862, guid: b83b8dfcb8421f844b264becfe121362, type: 3}
-  outline: {fileID: -7362842583064131565, guid: f263277d775dd11438816b3ccd5f754d, type: 3}
+  itemSprite: {fileID: -2300938527547814089, guid: f6c953d5d9c815a43a0e35e58d09b911, type: 3}
+  outline: {fileID: -5110187206907324152, guid: cc38d98e1b09f67428fa06d0a31dd954, type: 3}

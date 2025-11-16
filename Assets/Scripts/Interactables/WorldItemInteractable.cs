@@ -13,16 +13,19 @@ namespace Interactables
         [SerializeField] private ItemData item;
         [SerializeField] private SpriteRenderer spriteRenderer;
         [SerializeField] private Rigidbody2D rb;
+        
 
         private void Start()
         {
             spriteRenderer.sprite = item.itemSprite;
+            outline.sprite = item.outline;
         }
 
         public void OnDrop(ItemData item)
         {
             this.item = item;
             spriteRenderer.sprite = item.itemSprite;
+            outline.sprite = item.outline;
             
             // called when a player drops us after we spawn
             rb.linearVelocity = Player.Player.Rigidbody.linearVelocity;

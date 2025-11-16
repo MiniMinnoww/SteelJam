@@ -106,6 +106,9 @@ MonoBehaviour:
   spriteRenderer: {fileID: 8771915286027306233}
   offSprite: {fileID: -8973561033574820445, guid: 9cdf5e932a8074149b3c7914a6cd32ac, type: 3}
   onSprite: {fileID: 4878512208607138255, guid: fbbaea91bcc956a45a0e3c4fede4c174, type: 3}
+  outlineRenderer: {fileID: 690786094017983242}
+  offOutline: {fileID: -4668861552512819073, guid: fb21afaa7ad1d3d47b2df15d478fb9fe, type: 3}
+  onOutline: {fileID: -6398972701771287474, guid: bcb92cfd969863948a840d42cb2cbb3f, type: 3}
 --- !u!58 &7412351330038021037
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -164,7 +167,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5175176084308401613, guid: 7d6c5f660763b7d4d82fc25ac0a9d05f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.165
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5175176084308401613, guid: 7d6c5f660763b7d4d82fc25ac0a9d05f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -197,6 +200,26 @@ PrefabInstance:
     - target: {fileID: 5175176084308401613, guid: 7d6c5f660763b7d4d82fc25ac0a9d05f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7156539254284719015, guid: 7d6c5f660763b7d4d82fc25ac0a9d05f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4668861552512819073, guid: fb21afaa7ad1d3d47b2df15d478fb9fe, type: 3}
+    - target: {fileID: 7156539254284719015, guid: 7d6c5f660763b7d4d82fc25ac0a9d05f, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7156539254284719015, guid: 7d6c5f660763b7d4d82fc25ac0a9d05f, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7156539254284719015, guid: 7d6c5f660763b7d4d82fc25ac0a9d05f, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7156539254284719015, guid: 7d6c5f660763b7d4d82fc25ac0a9d05f, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7156539254284719015, guid: 7d6c5f660763b7d4d82fc25ac0a9d05f, type: 3}
       propertyPath: m_Enabled
