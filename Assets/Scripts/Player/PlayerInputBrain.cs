@@ -12,7 +12,7 @@ namespace Player
         public event Action OnInteractEvent;
         public event Action OnDropEvent;
 
-        public float Horizontal => input.actions["Movement"].ReadValue<Vector2>().x;
+        public float Horizontal => Mathf.Clamp(input.actions["Movement"].ReadValue<Vector2>().x, -1, 1);
 
         private void Start()
         {

@@ -43,6 +43,8 @@ namespace Player
         {
             if (TryGetInteractable(out WorldInteractable interactable))
                 interactable.OnPlayerInteract(this);
+            
+            else if (HasItem) CurrentItem.OnInteractInHand();
         }
 
         private void OnDrop()

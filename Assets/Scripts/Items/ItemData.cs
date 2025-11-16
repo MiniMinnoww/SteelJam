@@ -9,5 +9,7 @@ namespace Items
         public WorldItemInteractable worldItemPrefab;
 		public Sprite itemSprite;
         public Sprite outline;
+        
+        public virtual void OnInteractInHand() {}
     }
 }
