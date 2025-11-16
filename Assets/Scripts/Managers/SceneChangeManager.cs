@@ -21,6 +21,7 @@ namespace Managers
         private void Start()
         {
             overlay.color = new Color(0, 0, 0, 0);
+            overlay.gameObject.SetActive(false);
         }
 
         public static void SwitchScene(string scene)
@@ -31,12 +32,13 @@ namespace Managers
 
         private IEnumerator SwitchSceneCoroutine(string scene)
         {
+            overlay.gameObject.SetActive(true);
             overlay.DOFade(1, fadeOutDuration);
             yield return new WaitForSeconds(fadeOutDuration);
 
             yield return SceneManager.LoadSceneAsync(scene);
 
-            overlay.DOFade(0, fadeInDuration);
+            overlay.DOFade(0, fadeInDuration).OnComplete(() => overlay.gameObject.SetActive(false));
         }
     }
 }

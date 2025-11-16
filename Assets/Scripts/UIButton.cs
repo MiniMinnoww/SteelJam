@@ -3,13 +3,14 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class UIButton : MonoBehaviour, ISelectHandler, IDeselectHandler
+public class UIButton : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerEnterHandler
 {
     [SerializeField] private string scene;
 
     private bool isSelected;
-    [SerializeField] private float rotateAmount = 10;
-    [SerializeField] private float rotateSpeed = 3;
+    [SerializeField] private float rotateAmount = 5;
+    [SerializeField] private float rotateSpeed = 5;
+    [SerializeField] private EventSystem eventSystem;
     private Quaternion originalRotation;
 
     private void Start()
@@ -41,5 +42,11 @@ public class UIButton : MonoBehaviour, ISelectHandler, IDeselectHandler
         if (scene == "") return;
         SceneChangeManager.SwitchScene(scene);
         GetComponent<Button>().interactable = false;
+    }
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        eventSystem.SetSelectedGameObject(gameObject);
+        OnSelect(null);
     }
 }
