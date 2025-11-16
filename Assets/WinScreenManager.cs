@@ -29,6 +29,8 @@ public class WinScreenManager : MonoBehaviour
         highscoreText.color = ogCol2;
 
         yield return new WaitForSeconds(2);
+
+        SoundManager.PlaySoundEffect(SoundEffectType.Victory);
         
         youScoredText.rectTransform.anchoredPosition += Vector2.down;
         youScoredText.rectTransform.DOAnchorPosY(ogPos.y, 0.5f);
