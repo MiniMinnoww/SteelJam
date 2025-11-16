@@ -19,7 +19,7 @@ namespace Player
 
         private void FixedUpdate()
         {
-            Player.Rigidbody.AddForceX(Player.Input.Horizontal * moveForce);
+            Player.Rigidbody.AddForceX(Player.Input.Horizontal * moveForce * (Grounded ? 1 : 0.75f));
         }
 
         private void OnJump()
