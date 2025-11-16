@@ -50,7 +50,7 @@ public class WinScreenManager : MonoBehaviour
 
         yield return new WaitForSeconds(0.5f);
 
-        highscoreText.text = "highscore: " + PlayerPrefs.GetFloat("highscore").ToString(CultureInfo.InvariantCulture);
+        highscoreText.text = "best time: " + PlayerPrefs.GetFloat("highscore").ToString(CultureInfo.InvariantCulture);
         Vector2 ogPos2 = highscoreText.rectTransform.anchoredPosition;
         highscoreText.rectTransform.anchoredPosition += Vector2.down;
         highscoreText.rectTransform.DOAnchorPosY(ogPos2.y, 0.5f);
