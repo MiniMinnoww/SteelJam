@@ -24,6 +24,8 @@ namespace Managers
     
             yield return new WaitForSeconds(1);
 
+            SoundManager.PlaySoundEffect(SoundEffectType.PlayerLose);
+
             playerRb.bodyType = RigidbodyType2D.Dynamic;
             playerRb.AddForce(forceToAdd, ForceMode2D.Impulse);
             
