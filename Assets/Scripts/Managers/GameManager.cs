@@ -24,6 +24,8 @@ namespace Managers
             {
                 PlayerPrefs.SetFloat("highscore", timeSpent);
             }
+
+            WinScreenManager.actualScore = timeSpent;
         }
 
         private void Update()

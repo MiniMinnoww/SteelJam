@@ -16,6 +16,9 @@ EditorBuildSettings:
     guid: ee58b9ad2fe422844a3e6048719d802e
   - enabled: 1
     path: Assets/Scenes/PlayerLose.unity
+    guid: f8b513707d2b29d4baadd102de2561db
+  - enabled: 1
+    path: Assets/Scenes/TrainDeath.unity
     guid: afc28e9f881e28e4a9c002b6fa844c61
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 7d9276bd706703e408da1d9f6b28726b, type: 3}

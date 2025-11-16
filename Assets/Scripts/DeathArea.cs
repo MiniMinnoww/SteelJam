@@ -14,8 +14,7 @@ public class DeathArea : MonoBehaviour
     {
         if (Utils.IsMaskInLayer(trainCollisionLayer, other.gameObject.layer))
         {
-            // Train passed through
-            GameManager.RestartLevel();
+            SceneChangeManager.SwitchScene("TrainDeath");
         }
     }
 }

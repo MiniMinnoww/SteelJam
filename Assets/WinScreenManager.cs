@@ -12,7 +12,7 @@ public class WinScreenManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI highscoreText;
     [SerializeField] private GameObject playAgainButton;
     
-    public static float actualScore = 10.48f;
+    public static float actualScore = 00.00f;
     
     private IEnumerator Start()
     {

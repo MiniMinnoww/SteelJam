@@ -11,6 +11,11 @@ namespace Interactables
         public override void OnPlayerInteract(PlayerInteractor interactor)
         {
             // Win or lose
+            if (interactor.CurrentItem == requiredItem)
+            {
+                GameManager.Instance.WinLevel();
+            }
+            else WinScreenManager.actualScore = 0;
             SceneChangeManager.SwitchScene(interactor.CurrentItem == requiredItem ? "PlayerWin" : "PlayerLose");
         }
     }
