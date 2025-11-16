@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace Player
 {
@@ -14,7 +15,13 @@ namespace Player
         public static PlayerInputBrain Input => Instance.input;
         public static Rigidbody2D Rigidbody => Instance.rb;
         public static Transform Transform => Instance.transform;
+        public static PlayerInteractor Interactor { get; private set; }
 
         private void Awake() => Instance = this;
+
+        private void Start()
+        {
+            Interactor = GetComponent<PlayerInteractor>();
+        }
     }
 }

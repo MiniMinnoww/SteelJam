@@ -84857,7 +84857,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3652648760090331088, guid: 04014bb2c0c384947817e9fec92278f2, type: 3}
       propertyPath: m_LinearDamping
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3906251862713345430, guid: 04014bb2c0c384947817e9fec92278f2, type: 3}
       propertyPath: m_NotificationBehavior
