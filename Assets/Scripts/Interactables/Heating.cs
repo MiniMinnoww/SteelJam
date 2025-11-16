@@ -29,8 +29,10 @@ namespace Interactables
             {
                 IsOn = !IsOn;
                 interactor.Consume();
+                SoundManager.PlaySoundEffect(SoundEffectType.FixHeat);   
             }
                 
+            
 
             spriteRenderer.sprite = IsOn ? fixedSprite : brokenSprite;
         }

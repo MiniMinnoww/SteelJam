@@ -84,7 +84,9 @@ public enum SoundEffectType
     Train,
     TrainHorn,
     TrainInsideTunnel,
-    PlayerLose
+    PlayerLose,
+    FixHeat,
+    GetBlanket
 }
 
 [Serializable]
