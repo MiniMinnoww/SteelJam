@@ -42,15 +42,15 @@ public class WinScreenManager : MonoBehaviour
         for (float t = 0; t < duration; t += Time.deltaTime)
         {
             float score = Mathf.Lerp(0, actualScore, t / duration);
-            actualScoreText.text = GameManager.FormatTime(score) + "s";
+            actualScoreText.text = GameManager.FormatTime(score) + "<size=50%>s</size>";
             yield return null;
         }
 
-        actualScoreText.text = GameManager.FormatTime(actualScore);
+        actualScoreText.text = GameManager.FormatTime(actualScore) + "<size=50%>s</size>";
 
         yield return new WaitForSeconds(0.5f);
 
-        highscoreText.text = "best time: " + PlayerPrefs.GetFloat("highscore").ToString("F2", CultureInfo.InvariantCulture);
+        highscoreText.text = "best time: " + GameManager.FormatTime(PlayerPrefs.GetFloat("highscore")) + "<size=50%>s</size>";
         Vector2 ogPos2 = highscoreText.rectTransform.anchoredPosition;
         highscoreText.rectTransform.anchoredPosition += Vector2.down;
         highscoreText.rectTransform.DOAnchorPosY(ogPos2.y, 0.5f);
