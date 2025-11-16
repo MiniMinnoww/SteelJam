@@ -42,7 +42,7 @@ public class WinScreenManager : MonoBehaviour
         for (float t = 0; t < duration; t += Time.deltaTime)
         {
             float score = Mathf.Lerp(0, actualScore, t / duration);
-            actualScoreText.text = GameManager.FormatTime(score);
+            actualScoreText.text = GameManager.FormatTime(score) + "s";
             yield return null;
         }
 
