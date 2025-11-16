@@ -85230,11 +85230,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2936165954401793621, guid: 3b7cce2ac9d176746a4a1426ecc169db, type: 3}
       propertyPath: m_text
-      value: Oooh im nice and toasy now
+      value: i'm all warm and cosy now
       objectReference: {fileID: 0}
     - target: {fileID: 9020781796724911265, guid: 3b7cce2ac9d176746a4a1426ecc169db, type: 3}
       propertyPath: m_text
-      value: Brrrrrr im cold
+      value: brrrr... it's so cold
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

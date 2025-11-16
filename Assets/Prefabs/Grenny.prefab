@@ -328,7 +328,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Oooh im nice and toasy now do you want my blanket
+  m_text: i'm nice and warm now
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7da0db0c374690f46b4318e2e1aad1ff, type: 2}
   m_sharedMaterial: {fileID: 4455341994322316723, guid: 7da0db0c374690f46b4318e2e1aad1ff, type: 2}
