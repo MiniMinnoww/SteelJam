@@ -66,7 +66,24 @@ public class SoundManager : MonoBehaviour
 
 public enum SoundEffectType
 {
-    // Add sfx types here
+    BillowDown,
+    BillowUp,
+    ChooChoo,
+    ClownHorn,
+    FireActive,
+    FireIgnites,
+    FireWanes,
+    GrannyCoffee,
+    GrannyInteract,
+    GuitarStrums,
+    ItemDrop,
+    ItemPickup,
+    PlayerCoffee,
+    PlayerJump,
+    PlayerStep,
+    Train,
+    TrainHorn,
+    TrainInsideTunnel
 }
 
 [Serializable]
