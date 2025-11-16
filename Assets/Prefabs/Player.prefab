@@ -388,7 +388,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1e37c02aae24a799af39c333ac74235, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveForce: 10
+  moveForce: 7
   jumpForce: 10
   groundedData:
     groundedPosition: {fileID: 179066099163283047}
