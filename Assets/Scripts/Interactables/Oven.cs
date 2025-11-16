@@ -22,6 +22,15 @@ namespace Interactables
             Instance.ovenLight.enabled = IsOn;
 
             Instance.spriteRenderer.sprite = IsOn ? Instance.onSprite : Instance.offSprite;
+
+            if (IsOn) 
+            {
+                SoundManager.PlaySoundEffect(SoundEffectType.FireIgnites);
+            }
+            else
+            {
+                SoundManager.PlaySoundEffect(SoundEffectType.FireWanes);
+            }
         }
     }
 }
