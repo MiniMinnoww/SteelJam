@@ -42,11 +42,11 @@ public class WinScreenManager : MonoBehaviour
         for (float t = 0; t < duration; t += Time.deltaTime)
         {
             float score = Mathf.Lerp(0, actualScore, t / duration);
-            actualScoreText.text = FormatTime(score);
+            actualScoreText.text = GameManager.FormatTime(score);
             yield return null;
         }
 
-        actualScoreText.text = FormatTime(actualScore);
+        actualScoreText.text = GameManager.FormatTime(actualScore);
 
         yield return new WaitForSeconds(0.5f);
 
@@ -59,8 +59,6 @@ public class WinScreenManager : MonoBehaviour
         yield return new WaitForSeconds(1f);
         playAgainButton.SetActive(true);
     }
-    
-    private static string FormatTime(float t) => $"{(int)t:00}:{(int)((t % 1) * 100):00}";
 
     public void PlayAgain()
     {
