@@ -30,6 +30,7 @@ namespace Player
             if (!Grounded) return;
             
             // Jump logic here
+            SoundManager.PlaySoundEffect(SoundEffectType.PlayerJump);
             Player.Rigidbody.AddForceY(jumpForce, ForceMode2D.Impulse);
         }
     }

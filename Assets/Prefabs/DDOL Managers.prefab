@@ -304,7 +304,61 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57cbf156df0d0d7468a740e5ce54147e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  serializedSoundEffects: []
+  serializedSoundEffects:
+  - audioClip: {fileID: 8300000, guid: 9dc85fcc9cf59064094119f369603e93, type: 3}
+    soundType: 0
+    masterLevel: 1
+  - audioClip: {fileID: 8300000, guid: 6371f86b6b5a2504795fcd83ec1e6883, type: 3}
+    soundType: 1
+    masterLevel: 1
+  - audioClip: {fileID: 8300000, guid: d98eb17f887496d40acd3ca6ba153c71, type: 3}
+    soundType: 2
+    masterLevel: 1
+  - audioClip: {fileID: 8300000, guid: 0e15860d4b8ecde4ca75a826be2156e1, type: 3}
+    soundType: 3
+    masterLevel: 1
+  - audioClip: {fileID: 8300000, guid: fbb271fb0f5b109459390e5f2028df1e, type: 3}
+    soundType: 4
+    masterLevel: 1
+  - audioClip: {fileID: 8300000, guid: af73a54f9ddaabc47ba588bb79c3eafd, type: 3}
+    soundType: 5
+    masterLevel: 1
+  - audioClip: {fileID: 8300000, guid: 3cf266b7fb25bf14bb95e914809047cb, type: 3}
+    soundType: 6
+    masterLevel: 1
+  - audioClip: {fileID: 8300000, guid: a8d440c636a17f340843647c7322763c, type: 3}
+    soundType: 7
+    masterLevel: 1
+  - audioClip: {fileID: 8300000, guid: 2d0b0d75cee9f8345be950b031e0b9c1, type: 3}
+    soundType: 8
+    masterLevel: 1
+  - audioClip: {fileID: 8300000, guid: 0c3a8721f9219d142bf4e9461a140268, type: 3}
+    soundType: 9
+    masterLevel: 1
+  - audioClip: {fileID: 8300000, guid: 1d53c512986c8e544a5a6d0ca11cfe35, type: 3}
+    soundType: 10
+    masterLevel: 1
+  - audioClip: {fileID: 8300000, guid: 9c3773f0796278648a7f889e301ed824, type: 3}
+    soundType: 11
+    masterLevel: 1
+  - audioClip: {fileID: 8300000, guid: b00ecdfda02e4384282cc4480fd2a471, type: 3}
+    soundType: 12
+    masterLevel: 1
+  - audioClip: {fileID: 8300000, guid: 4524e29165514814e850307ee600fb0b, type: 3}
+    soundType: 13
+    masterLevel: 1
+  - audioClip: {fileID: 8300000, guid: 2ebe81eeafafe594d99222ffa433b851, type: 3}
+    soundType: 14
+    masterLevel: 1
+  - audioClip: {fileID: 8300000, guid: d5f424f6749503845a58aa7f7dce88d0, type: 3}
+    soundType: 15
+    masterLevel: 1
+  - audioClip: {fileID: 8300000, guid: cf85dab9ac7b1b0468b171b4fd637b05, type: 3}
+    soundType: 16
+    masterLevel: 1
+  - audioClip: {fileID: 8300000, guid: cf85dab9ac7b1b0468b171b4fd637b05, type: 3}
+    soundType: 16
+    masterLevel: 1
   soundEffectsSource: {fileID: 4485741637526910583}
   musicSource: {fileID: 8135448620472005875}
 --- !u!82 &4485741637526910583
@@ -414,8 +468,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 2df3c1d9e32152d47b6cd19d1c35a6e1, type: 3}
+  m_Resource: {fileID: 8300000, guid: 2df3c1d9e32152d47b6cd19d1c35a6e1, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
