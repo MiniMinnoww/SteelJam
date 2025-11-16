@@ -28,6 +28,7 @@ namespace Interactables
             outline.sprite = item.outline;
             
             // called when a player drops us after we spawn
+            SoundManager.PlaySoundEffect(SoundEffectType.ItemDrop);
             rb.linearVelocity = Player.Player.Rigidbody.linearVelocity;
         }
 
@@ -36,6 +37,7 @@ namespace Interactables
             if (interactor.HasItem) return;
 
             interactor.GiveItem(item);
+            SoundManager.PlaySoundEffect(SoundEffectType.ItemPickup);
             Destroy(gameObject);
         }
     }
